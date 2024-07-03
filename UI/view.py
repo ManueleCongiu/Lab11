@@ -38,7 +38,6 @@ class View(ft.UserControl):
         row1 = ft.Row([self._ddyear,self._ddcolor, self.btn_graph],
                       alignment=ft.MainAxisAlignment.CENTER)
         self._page.controls.append(row1)
-
         self._controller.fillDD()
 
         # List View where the reply is printed
